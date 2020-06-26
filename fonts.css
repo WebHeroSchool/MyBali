@@ -1,29 +1,27 @@
 @font-face {
   font-family: 'PT Serif';
-  src: url('../font/PTSerif-Regular.woff2') format('woff2'),
-    url('../font/PTSerif-Regular.woff') format('woff'),
-    url('../font/PTSerif-Regular.ttf') format('truetype');
+  src:
+   url('fonts/PTSerif-Regular.woff2') format('woff2'),
+   url('font/PTSerif-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'PT Serif';
-  src: url('../font/PTSerif-Bold.woff2') format('woff2'),
-    url('../font/PTSerif-Bold.woff') format('woff'),
-    url('../font/PTSerif-Bold.ttf') format('truetype');
+  src: 
+    url('fonts/PTSerif-Bold.woff2') format('woff2'),
+    url('fonts/PTSerif-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl 500';
-  src: url('../font/MuseoSansCyrl-500.woff2') format('woff2'),
-    url('../font/MuseoSansCyrl-500.woff') format('woff'),
-    url('../font/MuseoSansCyrl-500.ttf') format('truetype');
+  font-family:
+    'Museo Sans Cyrl 500';
+  src:
+    url('font/MuseoSansCyrl-500.woff2') format('woff2'),
+    url('font/MuseoSansCyrl-500.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
