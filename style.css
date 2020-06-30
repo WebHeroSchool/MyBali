@@ -1,0 +1,113 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F8EEE4;
+  background: url(img/iswanto-arif-448003-unsplash.svg);
+  background-size: cover;
+
+}
+
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 145px;
+}
+
+.header__logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 247px;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.header__item {
+  margin-right: 34px;
+}
+
+.header__link {
+  font-family: 'Museo Sans Cyrl 500';
+  font-size: 22px;
+  line-height: 26px;
+  color: #F8EEE4;
+  text-decoration: none;
+}
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 75%;
+  text-decoration: underline;
+}
+
+.intro {
+  min-height: 100vh;
+  padding-top: 329px;
+
+}
+
+.intro__title {
+  max-width: 550px;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 280px;
+  line-height: 362px;
+  display: flex;
+  align-items: center;
+  color: #F8EEE4;
+  opacity: 0.4;
+  margin-left: 247px;
+}
+
+.intro__sibtitle {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 98px;
+  line-height: 127px;
+  display: flex;
+  align-items: center;
+  color: #F8EEE4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
