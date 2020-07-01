@@ -85,8 +85,7 @@ body {
   font-weight: bold;
   font-size: 280px;
   line-height: 362px;
-  display: flex;
-  align-items: center;
+  
   color: #F8EEE4;
   opacity: 0.4;
  
@@ -103,8 +102,7 @@ body {
   font-weight: bold;
   font-size: 98px;
   line-height: 127px;
-  display: flex;
-  align-items: center;
+  
   color: #F8EEE4;
 
   
