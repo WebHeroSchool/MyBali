@@ -65,13 +65,20 @@ body {
   text-decoration: underline;
 }
 
-.intro {
-  min-height: 100vh;
-  padding-top: 329px;
 
-}
+  .intro__content {
+    max-width: 549px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    margin-left: 247px;
+   margin-top: 329px;
+   margin-bottom: 641px;
+  }
 
-.intro__title {
+
+.content__title {
   max-width: 550px;
   font-family: 'PT Serif';
   font-style: normal;
@@ -82,10 +89,15 @@ body {
   align-items: center;
   color: #F8EEE4;
   opacity: 0.4;
-  margin-left: 247px;
+ 
+
 }
 
-.intro__sibtitle {
+.content__sibtitle {
+  position: absolute;
+  margin-top: 559px;
+  margin-left: 330px;
+  margin-bottom: 652px;
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: bold;
@@ -94,10 +106,9 @@ body {
   display: flex;
   align-items: center;
   color: #F8EEE4;
+
+  
 }
-
-
-
 
 
 
