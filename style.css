@@ -67,6 +67,16 @@ body {
 }
 
 
+.main__intro{
+display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
   .intro__content {
     
     display: flex;
@@ -127,7 +137,7 @@ body {
   opacity: 75%;
 }
 
-.images {
+.intro__galleray {
   
   display: flex;
   flex-wrap: wrap;
