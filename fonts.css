@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl 500'
+  font-family: 'Museo Sans Cyrl 500';
   src:
     url(fonts/MuseoSansCyrl-500.woff2) format('woff2'),
     url(fonts/MuseoSansCyrl-500.woff)format('woff');
