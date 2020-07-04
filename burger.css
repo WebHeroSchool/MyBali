@@ -1,24 +1,32 @@
-   .header__nav {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #E5E5E5;
-    z-index: 10;
-    padding: 186px;
-    transform: translateX(100%);
-   }
-.header__item {
-  width: 100%;
-  margin-right: 0;
-  margin-bottom: 84px;
+   
+body {
+  background: #E5E5E5;
 }
 
+   .header__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 768px;
+  max-height: 1152px;
+  margin-top: 186px
+   }
+
 .header__link {
-  font-size: 30px;
-  line-height: 36px;
+  display: inline-block;
   color: black;
+  font-family: Museo Sans;
+  font-size: 30px;
+  padding-right: 36px;
+  text-decoration: none;
+  margin-bottom: 30
+}
+
+.header__burger {
+  display: block;
+  width: 50px;
+  height: 50px;
+  
 }
 
 .header__nav-clouse {
