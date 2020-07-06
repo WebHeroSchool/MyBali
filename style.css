@@ -20,43 +20,38 @@ body {
 
 }
 
-
-.wrapper {
-  margin: 0;
-}
-
-.header__wrapper {
+.header__nav {
+ 
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding-top: 145px;
-  margin-bottom: 265px;
-}
-
-.header__logo {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 247px;
-  
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .header__list {
+  
+ 
   display: flex;
-  flex-wrap: wrap;
-  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.header__item {
-  margin-right: 34px;
-}
 
 .header__link {
+
+  text-decoration: none;
   font-family: 'Museo Sans Cyrl 500';
   font-size: 22px;
   line-height: 26px;
   color: #F8EEE4;
-  text-decoration: none;
+}
+
+.header__item {
+margin-right: 50px;
+
 }
 
 .header__link:hover,
@@ -98,14 +93,13 @@ body {
 
 
 .main__intro{
+width: : 100%;
 display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-around;
 
 }
-
-
-
 
   .intro__content {
     
@@ -113,11 +107,8 @@ justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
     position: relative;
-    margin-left: 247px;
     
-
-  
-    
+     
   }
 
 
@@ -152,8 +143,7 @@ justify-content: space-between;
   max-width: 550px;
   font-size: 22px;
   line-height: 26px;
-  margin-left: 268px;
-  margin-bottom: 78px;
+  
   
 }
 
@@ -166,8 +156,7 @@ justify-content: space-between;
   border-radius: 48px;
   border: 0;
   cursor: pointer;
-  margin-left: 268px;
-  margin-bottom: 472px;
+  
 }
 
 .content__button:hover, .content__button:active{
@@ -187,7 +176,6 @@ justify-content: space-between;
 .galleray__item {
   
   margin-left: 33px;
-  margin-bottom: 475px;
   max-width: 100%;
   object-fit: cover;
 
@@ -202,24 +190,9 @@ justify-content: space-between;
   max-width: 104px;
   margin-left: 176px;
 
-}
-
-}
-
-
-@media screen and (max-width: 768px) {
-  .header__burger {
-    display: block;
-  }
-
-.header__item {
-  margin-right: 24px;
-}
-
 .header__link {
   font-size: 16px;
   line-height: 19px;
-  color: #F8EEE4;
 }
 
 .header__link:last-child{
@@ -264,14 +237,22 @@ justify-content: space-between;
   
   margin-right: : 24px;
   margin-bottom: 330px;
-  max-width: 70%;
+  max-width: 226px;
+  max-height: 300px;
   object-fit: cover;
 
+
+}
 }
 
 
-
+@media screen and (max-width: 768px) {
+  .header__burger {
+    display: block;
+  }
 }
+
+
 
 
 
