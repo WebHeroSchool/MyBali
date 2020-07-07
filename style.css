@@ -170,9 +170,16 @@ justify-content: space-around;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
+  
 
   
 }
+
+
+
+
+
+
 .galleray__item {
   
   margin-left: 33px;
