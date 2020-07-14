@@ -1,58 +1,55 @@
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
+.wrap {
+  width: 1920px;
+  max-height: 375px;
+  height: 100vh;
+  margin: 0 auto;
   font-family: 'Museo Sans Cyrl 500';
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #F8EEE4;
+  color: black;
   background: url(img/iswanto-arif-448003-unsplash.svg);
   background-size: cover;
 
 }
 
-.header__nav {
- 
-  width: 100%;
+
+
+.header {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+}
+ .header__logo {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+ }
+
+
+.header__stumb {
+  flex: 2;
 }
 
-.header__list {
-  
- 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  text-decoration: none;
-  list-style-type: none;
+.header__numb {
+
+ flex: 2;
+ display: flex;
+ justify-content: space-between;
 }
 
-
-.header__link {
-
+.header__link{
   text-decoration: none;
-  font-family: 'Museo Sans Cyrl 500';
   font-size: 22px;
-  line-height: 26px;
-  color: #F8EEE4;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 20px
 }
 
-.header__item {
-margin-right: 50px;
 
-}
 
 .header__link:hover,
 .header__link:focus,
@@ -97,8 +94,8 @@ width: : 100%;
 display: flex;
 flex-wrap: nowrap;
 align-items: center;
-justify-content: space-around;
-
+justify-content: space-between;
+padding-left: 100px;
 }
 
   .intro__content {
@@ -143,7 +140,7 @@ justify-content: space-around;
   max-width: 550px;
   font-size: 22px;
   line-height: 26px;
-  
+  color: #fff;
   
 }
 
@@ -196,14 +193,10 @@ justify-content: space-around;
 .header__logo {
   max-width: 104px;
   margin-left: 176px;
-
+}
 .header__link {
   font-size: 16px;
   line-height: 19px;
-}
-
-.header__link:last-child{
-  margin-right: 114px;
 }
 
 .intro__content {
@@ -252,12 +245,31 @@ justify-content: space-around;
 }
 }
 
+@media screen and (max-width: 1366px) {
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+
+}
+
+
+
 
 @media screen and (max-width: 768px) {
   .header__burger {
     display: block;
   }
+  .main__galleray {
+    display: none;
+  }
+  .header__nav {
+    display: none;
+  }
 }
+
 
 
 
