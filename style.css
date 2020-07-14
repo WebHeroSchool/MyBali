@@ -1,0 +1,279 @@
+
+.wrap {
+
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  background: url(img/iswanto-arif-448003-unsplash.svg) repeat-x;
+  background-size: cover;
+
+}
+
+
+
+.header {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+ .header__logo {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+ }
+
+
+.header__stumb {
+  flex: 2;
+}
+
+.header__numb {
+
+ flex: 2;
+ display: flex;
+ justify-content: space-between;
+}
+
+.header__link{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 20px
+}
+
+
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 75%;
+  text-decoration: underline;
+
+}
+
+.header__burger {
+  display: none;
+  width: 40px;
+  height: 28px;
+  position: relative;
+
+}
+
+.burger__line {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #FCF5ED;
+  position: absolute;
+  left: 0;
+}
+
+.burger__line_first {
+  top: 0;
+}
+.burger__line_second {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.burger__line_third {
+  bottom: 0;
+}
+
+
+.main__intro{
+width: : 100%;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-between;
+padding-left: 100px;
+}
+
+  .intro__content {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    
+     
+  }
+
+
+.content__title {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 280px;
+  line-height: 362px;
+  color: #F8EEE4;
+  opacity: 0.4;
+  margin: 0;
+ 
+
+}
+
+.content__sibtitle {
+  position: absolute;
+  margin: 0;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 98px;
+  line-height: 127px;
+  color: #F8EEE4;
+  top: 60%;
+  left: 10%;
+
+}
+
+.content__text {
+  max-width: 550px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #fff;
+  
+}
+
+.content__button {
+  padding: 17px 87px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFF;
+  background: #D4BEA3;
+  border-radius: 48px;
+  border: 0;
+  cursor: pointer;
+  
+}
+
+.content__button:hover, .content__button:active{
+  background: #9a8a76;
+  opacity: 75%;
+}
+
+
+.main__galleray {
+  display: flex;
+}
+
+
+
+.galleray__item {
+  
+  margin-left: 33px;
+  max-width: 100%;
+  object-fit: cover;
+
+
+}
+
+
+
+@media screen and (max-width: 1366px) {
+
+.header__logo {
+  max-width: 104px;
+  margin-left: 176px;
+}
+.header__link {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.intro__content {
+  margin-left: 176px;
+  padding: 0;
+}
+
+.content__title {
+  font-size: 200px;
+  line-height: 259px;
+}
+
+.content__sibtitle {
+  font-size: 70px;
+  line-height: 91px;
+
+}
+
+.content__text {
+  max-width: 399px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 191px;
+  margin-bottom: 36px;
+  
+}
+
+.content__button {
+  padding: 12px 61px;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 48px;
+  margin-left: 254px;
+  margin-bottom: 336px;
+}
+
+.main__galleray {
+  display: flex;
+}
+
+.galleray__item {
+  
+  margin-right: : 24px;
+  margin-bottom: 330px;
+  max-width: 226px;
+  max-height: 300px;
+  object-fit: cover;
+
+
+}
+}
+
+@media screen and (max-width: 1366px) {
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .header__burger {
+    display: block;
+  }
+  .main__galleray {
+    display: none;
+  }
+  .header__nav {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
